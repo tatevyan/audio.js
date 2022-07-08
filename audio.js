@@ -125,11 +125,11 @@ function playSong() {
                 var mute = document.getElementById ("mute")
                 if (song.muted) {
                 song.muted = false
-                mute.src = "images/volume.png" //mute
+                mute.src = "images/volume.png" 
                 } else {
                 song.muted = true
                 mute.src = "images/volume-mute.png"
-                //unmute
+                
                 }
                 }
 
