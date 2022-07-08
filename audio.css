@@ -156,10 +156,13 @@ height: 100%;
                     margin:5px;
                    }
 
-                    h1{
+                    .h{
                       color: rgb(116, 126, 214);
-                      text-align: center;
-                      background: rgb(113, 227, 216);
-                      width: 26%;
+                     margin-left: 33%;
+                      background:rgb(113, 227, 216);
                       height: 40px;
+                      width: 37%;
+                      border-radius: 8px;
+                      text-align: center;
                     }
+
