@@ -98,7 +98,13 @@ function playSong() {
         var sec = Math.floor(seconds % 60)
         min = (min < 10) ? "0" + min : min;
         sec = (sec < 10) ? "0" + sec : sec;
-        currentTime.textContent += " / " + min + ":" + sec
+
+          if(isNaN(min) || isNaN(sec)){
+                  return false;
+          }else{
+
+              currentTime.textContent += " / " + min + ":" + sec
+          }
         
         };
 
