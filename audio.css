@@ -155,3 +155,11 @@ height: 100%;
                     background-size: cover;
                     margin:5px;
                    }
+
+                    h1{
+                      color: rgb(116, 126, 214);
+                      text-align: center;
+                      background: rgb(113, 227, 216);
+                      width: 26%;
+                      height: 40px;
+                    }
